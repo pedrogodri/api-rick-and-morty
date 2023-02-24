@@ -1,3 +1,4 @@
+import { ListLocationComponent } from './components/lists/list-location/list-location.component';
 import { DetailsComponent } from './components/details/details.component';
 import { ListCharacterComponent } from './components/lists/list-character/list-character.component';
 import { NgModule } from '@angular/core';
@@ -7,7 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: '', redirectTo:'/home', pathMatch: 'full'},
-  {path: 'list', component: ListCharacterComponent},
+  {path: 'listCharacter', component: ListCharacterComponent},
+  {path: 'listLocation', component: ListLocationComponent},
   {path: 'detail/:id', component: DetailsComponent},
 ];
 

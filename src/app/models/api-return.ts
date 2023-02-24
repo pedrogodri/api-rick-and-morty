@@ -15,6 +15,7 @@ export class Infos {
 }
 
 export class Results {
+
   id?: number;
   name?: string;
 

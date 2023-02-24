@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { DetailsComponent } from './components/details/details.component';
 import { ListCharacterComponent } from './components/lists/list-character/list-character.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ListLocationComponent } from './components/lists/list-location/list-location.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     NavbarComponent,
     DetailsComponent,
-    ListCharacterComponent
+    ListCharacterComponent,
+    ListLocationComponent
   ],
   imports: [
     BrowserModule,

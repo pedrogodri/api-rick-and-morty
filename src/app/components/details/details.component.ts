@@ -2,7 +2,6 @@ import { ApiService } from './../../service/api.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Character } from 'src/app/models/api/character-model';
-import { Location } from 'src/app/models/api/character-model';
 
 @Component({
   selector: 'app-details',
