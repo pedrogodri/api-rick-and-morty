@@ -21,5 +21,4 @@ export class ListCharacterComponent implements OnInit {
       }
     )
   }
-
 }

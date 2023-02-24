@@ -4,7 +4,6 @@ export class ApiReturn {
 
   constructor(obj: Partial<ApiReturn>) {
     Object.assign(this, obj);
-
   }
 }
 

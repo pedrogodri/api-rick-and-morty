@@ -6,6 +6,7 @@ export class Character {
   species?: string;
   gender?: string;
   image?: string;
+  location?: Location[];
 
   constructor(obj: Partial<Character>) {
     Object.assign(this, obj);
@@ -21,3 +22,7 @@ export class Location {
   }
 }
 
+export class Origin {
+  name?: string;
+  url?: string;
+}
