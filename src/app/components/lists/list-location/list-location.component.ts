@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListLocationComponent implements OnInit {
 
-  public resultsList$ =new Subject<Results[] | undefined>();
+  public resultsList$ = new Subject<Results[] | undefined>();
 
   constructor(public service: ApiService) { }
 

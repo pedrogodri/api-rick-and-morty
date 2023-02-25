@@ -9,7 +9,6 @@ import { DetailsComponent } from './components/details/details.component';
 import { ListCharacterComponent } from './components/lists/list-character/list-character.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListLocationComponent } from './components/lists/list-location/list-location.component';
-import { ListEpisodeComponent } from './components/lists/list-episode/list-episode.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { ListEpisodeComponent } from './components/lists/list-episode/list-episo
     DetailsComponent,
     ListCharacterComponent,
     ListLocationComponent,
-    ListEpisodeComponent
   ],
   imports: [
     BrowserModule,
