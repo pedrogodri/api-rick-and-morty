@@ -10,7 +10,7 @@ export class ApiService {
 
   public URL_API_CHARACTER:string = 'https://rickandmortyapi.com/api/character';
   public URL_API_LOCATION:string = 'https://rickandmortyapi.com/api/location';
-  public URL_API_EPISODE:string = 'https://rickandmortyapi.com/api/location';
+  public URL_API_EPISODE:string = 'https://rickandmortyapi.com/api/episode';
 
   constructor(public http: HttpClient) { }
 
