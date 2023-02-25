@@ -1,3 +1,4 @@
+import { ListEpisodeComponent } from './components/lists/list-episode/list-episode.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -18,6 +19,7 @@ import { ListLocationComponent } from './components/lists/list-location/list-loc
     DetailsComponent,
     ListCharacterComponent,
     ListLocationComponent,
+    ListEpisodeComponent,
   ],
   imports: [
     BrowserModule,
