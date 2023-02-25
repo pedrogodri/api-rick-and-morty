@@ -1,0 +1,42 @@
+.imgLink {
+  display: block;
+  position: relative;
+}
+
+.imgLink img {
+  width: 100%;
+  display: block;
+}
+
+.imgLink::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: all .5s;
+}
+
+.imgLink:hover::before {
+  background: rgba(0,0,0,.5);
+}
+
+.imgLink:after {
+  opacity: 0;
+}
+
+.imgLink:hover::after {
+  content: 'Veja a documentação da API';
+  display: block;
+  position: absolute;
+  border: 3px solid white;
+  color: white;
+  top: 50%;
+  left: 50%;
+  padding: 10px 20px;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  border-radius: 5px;
+}
